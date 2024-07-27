@@ -11,10 +11,29 @@ export default function Home() {
 
         <div className="container space-y-[10rem] mt-20">
           <div className="section max-w-[71.25rem] mt-5">
-            <div className="section-header">
-              <h2>Rover Call</h2>
-            </div>
 
+          <div className="section max-w-[71.25rem]">
+          <div className="section-header">
+          <h2>Take your seat.</h2>
+        </div>
+        <div className="flex flex-col">
+          <Image
+            className="flex-1 p-1 max-w-full relative"
+            src="/catloaf-flight-757.webp"
+            alt="catl04f Flight 757"
+            width={2000}
+            height={1000}
+            priority
+          />
+        </div>
+          </div>
+    
+        
+            
+          
+            <div className="section-header mt-20">
+              <h2>Rover's Call</h2>
+            </div>
             <div className="flex flex-col md:flex-row">
               <Image
                 className="flex-1 p-1 md:w-1/3 max-w-full relative dark:invert"
@@ -45,7 +64,7 @@ export default function Home() {
 
           <div className="section max-w-[71.25rem]">
             <div className="section-header">
-              <h2>A Catfood Commercial</h2>
+              <h2>A Cat Food Commercial</h2>
             </div>
             <div className="w-full flex justify-center mt-8">
               <iframe

@@ -2,13 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="section max-w-[71.25rem]">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 max-w-100">
+      <div className="section">
         <div className="section-header space-y-5">
           <h1 className="text-9xl">Catloaf TV</h1>
           <p className="text-gray-400 text-4xl">A place of things.</p>
         </div>
-
         <div className="container space-y-[10rem] mt-20">
           <div className="section max-w-[71.25rem] mt-5">
             <div className="section max-w-[71.25rem]">
@@ -58,7 +57,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="section max-w-[71.25rem]">
+          <div className="section">
             <div className="section-header">
               <h2>A Cat food Commercial</h2>
             </div>
@@ -74,7 +73,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="section max-w-[71.25rem]">
+          <div className="section">
             <div className="section-header">
               <h2>Holidays 2023</h2>
             </div>
@@ -90,8 +89,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="section max-w-[71.25rem]">
-            <div className="section-footer text-gray-900">
+          <div className="section">
+            <div className="text-gray-800">
               <p>© 2024 catloaf. Whiskered in Los Angeles. </p>
             </div>
           </div>

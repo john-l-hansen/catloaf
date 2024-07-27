@@ -45,7 +45,7 @@ export default function Home() {
 
           <div className="section max-w-[71.25rem]">
             <div className="section-header">
-              <h2>A Catfood Commercial</h2>
+              <h2>A Cat food Commercial</h2>
             </div>
             <div className="w-full flex justify-center mt-8">
               <iframe

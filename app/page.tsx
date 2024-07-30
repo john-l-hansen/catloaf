@@ -4,15 +4,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 max-w-100">
       <div className="section">
-        <div className="section-header space-y-5">
-          <h1 className="text-9xl">Catloaf TV</h1>
+        <div className="section-header space-y-5 padding-x-1">
+          <h1 className="text-9xl">catloaf TV</h1>
           <p className="text-gray-400 text-4xl">A place of things.</p>
         </div>
         <div className="container space-y-[10rem] mt-20">
           <div className="section max-w-[71.25rem] mt-5">
             <div className="section max-w-[71.25rem]">
               <div className="section-header">
-                <h2>Take your seat.</h2>
+                <h2>Take your seat.</h2>  
               </div>
               <div className="flex flex-col">
                 <Image
